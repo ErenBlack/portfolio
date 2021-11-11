@@ -25,7 +25,7 @@ a.navbar-item:hover,
 
 a.navbar-item.is-active {
     background-color: rgba($color: #fff, $alpha: 0.25) !important;
-    color: white !important;
+    color: red !important;
 
     &:hover {
         background-color: rgba($color: #fff, $alpha: 0.25) !important;
@@ -219,10 +219,7 @@ a.navbar-item.is-active {
             display: grid;
             justify-content: center;
 
-            li {
-                list-style: circle;
-                list-style-position: outside;
-            }
+            
 
             a {
                 color: #7a7a7a;
