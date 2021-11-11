@@ -8,6 +8,13 @@
                 <i class="fab fa-facebook-messenger"></i>Ping me on Messenger
             </a>
             {% endunless %}
+			{% unless site.discord_username == %}
+            <a id="contact-button"
+                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+                target="_blank">
+                <i class="fab fa-discord"></i>{{site.discord_username}}
+            </a>
+            {% endunless %}
             {% unless site.email == %}
             <a id="contact-button" href="mailto:{{site.email}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
@@ -24,11 +31,14 @@
             {% endunless %}
             <hr>
             <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-                You Can find me here
+                Feel free to contact me ;)
             </h3>
             <div class="column is-full is-size-3">
                 {% unless site.facebook_username == %}
                 <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-black"><i class="fab fa-facebook"></i></a>
+                {% endunless %}
+				{% unless site.discord_server == %}
+                <a href="{{site.discord_server}}" target="_blank" class="has-text-black"><i class="fab fa-discord"></i></a>
                 {% endunless %}
                 {% unless site.twitter_username == %}
                 <a href="http://www.twitter.com/{{site.twitter_username}}" target="_blank" class="has-text-black"><i class="fab fa-twitter"></i></a>
