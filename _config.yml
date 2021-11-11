@@ -7,7 +7,7 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: Eren Black
+title: Eren Black1
 # Description of the Site
 description: Motion Graphic Artist, Animator, Video Editor, and Temporizing Enthusiast.
 # URL of Image of the Site
@@ -18,7 +18,7 @@ site-keywords: Site, Portfolio, ErenBlackEdits, ErenBlack, Eren, Black, Editor, 
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://erenblack.com/assets/images/meta.jpg
+heroimage: https://erenblack.com/assets/images/images/meta.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
