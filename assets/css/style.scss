@@ -279,13 +279,14 @@ a.navbar-item.is-active {
         display: inline-table;
         &:hover {
             transform: scale(0.975);
+			color: fff!important;
         }
     }
     .card {
         transition: all 0.25s ease;
         &:hover {
             background-color: rgba($color: #000000, $alpha: 0.90)!important;
-			color: #fff!important;
+
         }
     }
 }
