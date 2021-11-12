@@ -1,4 +1,4 @@
-- name: holy 
+- name: Second Project
   image: /assets/images/meta.jpg
   link:
   description: Youre
@@ -9,7 +9,7 @@
 - name: ssddddddddddddddddddddddddddddddddddddd
   link:
   image: https://cdn.pixabay.com/photo/2016/06/25/12/55/art-1478831_960_720.jpg
-  description: Gottemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  description: Gottemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 - name: Fwoah
   link:
   image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg
