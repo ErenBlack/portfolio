@@ -48,6 +48,7 @@ a.navbar-item.is-active {
     &::before {
         
         background-image: url({{site.heroimage}});
+		filter: blur(0.25rem);
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -233,7 +234,7 @@ a.navbar-item.is-active {
             }
 
             figure {
-                border: 1.5px solid white;
+                border: none;
                 border-radius: 50rem;
                 justify-content: center;
                 margin: auto;
