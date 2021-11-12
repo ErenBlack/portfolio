@@ -339,7 +339,7 @@ a.navbar-item.is-active {
 }
 
 #project-card {
-		.wrapper{
+		.wrapper {
 			display: flex;
 			width: 90%;
 			justify-content: space-around;
@@ -357,6 +357,7 @@ a.navbar-item.is-active {
 			align-items: flex-end;
 			transition: 0.4s ease-out;
 			box-shadow: 0px 7px 10px rgba(black, 0.5);
+      }
 			&:hover {
 				transform: translateY(20px);
 				&:before {
@@ -411,7 +412,6 @@ a.navbar-item.is-active {
 					margin-top: 8px;
 					font-family: 'Poppins', sans-serif;
 				}
-			
 		}
-
-}
+		
+	
