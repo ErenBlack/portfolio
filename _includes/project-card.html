@@ -1,9 +1,9 @@
 <div class="columns is-centered is-multiline is-mobile">
   {% for project in site.data.projects %}
     <div class="wrapper" id="project-card">
-      <a href="{{project.image}}" target="_blank">
+      <a href="{{project.link}}" target="_blank">
       <div class="card">
-        <img src="https://www.w3schools.com/tags/img_girl.jpg">
+        <img src="{{project.image}}">
         <div class="info">
           <h1>{{project.name}}</h4>
           <p>{{project.description}}</p>
