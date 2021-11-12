@@ -270,7 +270,7 @@ a.navbar-item.is-active {
         }
     }
 
-    #project-card {
+#project-card {
 		 .wrapper{
 			display: flex;
 			width: 90%;
@@ -288,9 +288,9 @@ a.navbar-item.is-active {
 			align-items: flex-end;
 			transition: 0.4s ease-out;
 			box-shadow: 0px 7px 10px rgba(black, 0.5);
-			&:hover{
+			&:hover {
 				transform: translateY(20px);
-				&:before{
+				&:before {
 					opacity: 1;
 				}
 				.info {
@@ -298,7 +298,7 @@ a.navbar-item.is-active {
 					transform: translateY(0px);
 					}
 			}
-			&:before{
+			&:before {
 				content: "";
 				position: absolute;
 				top: 0;
