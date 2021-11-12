@@ -1,10 +1,10 @@
 <div class="columns is-centered is-multiline is-mobile">
   {% for project in site.data.projects %}
-    <div class="column has-text-centered is-paddingless is-one-fourth-widescreen is-one-fourth-desktop is-one-fourth-fullhd is-one-fourth-tablet is-one-third-mobile is-one-third-touch"
+    <div class="column has-text-centered is-paddingless is-one-fourth-widescreen is-one-fourth-desktop is-one-fourth-fullhd is-one-fourth-tablet is-one-fourth-mobile is-one-fourth-touch"
       id="project-card">
       <a href="{{project.link}}" target="_blank">
       <div class="has-background-transparent card">
-        <figure class="image is-1by1" style=" height: auto; background-image: url({{project.image}});">
+        <figure class="image is-1by1" style="background-image: url({{project.image}});">
         </figure>
         <div class="card-content">
           <p class="title card-content" >{{ project.name }}</p>
