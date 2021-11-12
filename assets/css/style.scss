@@ -279,7 +279,8 @@ a.navbar-item.is-active {
         display: inline-table;
         &:hover {
             transform: scale(0.975);
-        }
+			color: rgba($color: #fff, $alpha: 0.90)!important;
+        
     }
     .card {
         transition: all 0.25s ease;
@@ -288,12 +289,6 @@ a.navbar-item.is-active {
 
         }
     }
-	.card-content {
-		&:hover {
-            color: rgba($color: #fff, $alpha: 0.90)!important;
-
-        }
-	}
 }
 
 #post {
