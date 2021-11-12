@@ -4,9 +4,9 @@
       id="project-card">
       <a href="{{project.link}}" target="_blank">
       <div class="has-background-transparent card">
-        <figure class="image is-1by1" style="background-image: url({{project.image}}); background-size: 10% 10%;">
+        <figure class="image is-1by1" style="background-image: url({{project.image}});">
         </figure>
-        <div class="card-content">
+        <div class="card-content" style="max-width: 25ch!important;">
           <h1 class="title is-size-4">{{ project.name }}</h1>
           <p class="has-text-weight-light content">{{ project.description | truncate: 80}}</p>
         </div>
