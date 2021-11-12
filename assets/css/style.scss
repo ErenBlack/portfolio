@@ -341,9 +341,9 @@ a.navbar-item.is-active {
 #project-card {
 		.wrapper {
 			display: flex;
-			justify-content: space-around;
-			margin-left: 10%!important;
-			margin-right: 10%!important;
+			justify-content: space-evenly;
+			column-gap: 10%;
+
 		}
 
 		.card {
