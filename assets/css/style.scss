@@ -342,6 +342,8 @@ a.navbar-item.is-active {
 		.wrapper {
 			display: flex;
 			justify-content: space-around;
+			margin-left: 10%;
+			margin-right: 10%;
 		}
 
 		.card {
@@ -356,7 +358,6 @@ a.navbar-item.is-active {
 			transition: 0.4s ease-out;
 			box-shadow: 0px 7px 10px rgba(black, 0.5);
 			margin-bottom: 10%;
-			padding:30%!important;
 			
 			&:hover {
 				transform: translateY(20px);
