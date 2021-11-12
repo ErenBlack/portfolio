@@ -269,24 +269,8 @@ a.navbar-item.is-active {
         }
     }
 }
-/*
-    #project-card {
-		
-        transform: scale(0.95);
-        transition: all 0.5s ease;
-        margin-bottom: 0.5rem !important;
-        display: inline-table;
-        &:hover {
-            transform: scale(0.975);
-			.card-content {color: rgba($color: #fff, $alpha: 0.90)!important;}
-		}
-		
-		
-    } */
+
 #project-card{
-	body {
-		  background: #eee;
-		}
 	.carded {
 	  position: absolute;
 	  top: 50%;
