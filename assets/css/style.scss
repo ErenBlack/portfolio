@@ -342,13 +342,14 @@ a.navbar-item.is-active {
 		.wrapper {
 			display: flex;
 			justify-content: space-around;
+			padding: 1.5rem!important;
 		}
 
 		.card {
 			width: 360px;
 			height: 360px;
 			border-radius: 15px;
-			padding: -5rem;
+			padding: 1.5rem;
 			background: white;
 			position: relative;
 			display: flex;
