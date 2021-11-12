@@ -357,12 +357,12 @@ a.navbar-item.is-active {
 			align-items: flex-end;
 			transition: 0.4s ease-out;
 			box-shadow: 0px 7px 10px rgba(black, 0.5);
-      }
+		}
 			&:hover {
 				transform: translateY(20px);
 				&:before {
 					opacity: 1;
-				}
+				
 				.info {
 					opacity: 1;
 					transform: translateY(0px);
@@ -400,7 +400,7 @@ a.navbar-item.is-active {
 				opacity: 0;
 				transform: translateY(30px);
 				transition: 0.5s;
-				}
+				
 				h1	{
 					margin: 0px;
 					font-family: 'Poppins', sans-serif;
@@ -412,6 +412,7 @@ a.navbar-item.is-active {
 					margin-top: 8px;
 					font-family: 'Poppins', sans-serif;
 				}
-		}
+			}
+}
 		
 	
