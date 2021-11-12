@@ -292,7 +292,7 @@ a.navbar-item.is-active {
 	  transform-style: preserve-3d;
 	}
 
-	.carded:hover .contented {
+	.carded:hover, .contented {
 	  transform: rotateY( 180deg ) ;
 	  transition: transform 0.5s;
 	}
