@@ -386,8 +386,8 @@ a.navbar-item.is-active {
 				height: 30%;
 				object-fit: cover;
 				position: absolute;
-				top: 0;
-				left: 0;
+				bottom: 0!important;
+				left: 0!important;
 				border-radius: 15px;
 			}
 			.info {
