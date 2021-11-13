@@ -12,12 +12,16 @@
       </a>
 	</div>
 	
-	<div class="lightbox-target lightbox-close" id="full{{project.name}}">
+	
+
+
+</div>
+  {% endfor %}
+{% for project in site.data.projects %}
+<div class="lightbox-target lightbox-close" id="full{{project.name}}">
 		<a class="lightbox-close" href="#project">
 			<img id="imgg" src="{{project.image}}"> 
 			</img>
 		</a>
-	</div>
-
-  {% endfor %}
 </div>
+  {% endfor %}
