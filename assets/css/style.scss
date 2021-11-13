@@ -414,6 +414,7 @@ a.navbar-item.is-active {
 	.lightbox-target {
 	  position: absolute!important;
 	  display:none!important;
+	  top: -100%!important;
 	  width: 100%;
 	  background: rgba(0,0,0,.7);
 	  width: 100%;
@@ -431,10 +432,10 @@ a.navbar-item.is-active {
 	#imgg {
 		margin: auto;
 		position: absolute;
-		top: 0;
-		left:0;
-		right:0;
-		bottom: 0;
+		top: 0%!important;
+		left:0%!important;
+		right: 0%!important;
+		bottom: 0%!important;
 		max-height: 0%;
 		max-width: 0%;
 		box-sizing: border-box;
