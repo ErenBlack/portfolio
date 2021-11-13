@@ -1,8 +1,8 @@
-- name: Second Project
+- name: Second Project2
   image: /assets/images/meta.jpg
   link:
   description: Youre
-- name: Second Project
+- name: Second Project21
   link:
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
   description: Dees Nuts
@@ -10,7 +10,7 @@
   link:
   image: https://cdn.pixabay.com/photo/2016/06/25/12/55/art-1478831_960_720.jpg
   description: Gottemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-- name: Second Project
+- name: Second Projectssss
   link:
   image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg
   description: Youre
