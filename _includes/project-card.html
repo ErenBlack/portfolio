@@ -1,7 +1,7 @@
 <div class="columns is-centered is-multiline is-mobile">
   {% for project in site.data.projects %}
     <div class="wrapper" id="project-card" style="padding: 1%!important;">
-      <a href="#full{{project.name}}" target="_blank">
+      <a href="#full{{project.name}}" id="small{{project.name}}" target="_blank">
       <div class="card">
         <img src="{{project.image}}">
         <div class="info">
@@ -19,9 +19,9 @@
   {% endfor %}
 {% for project in site.data.projects %}
 <div class="lightbox-target lightbox-close" id="full{{project.name}}">
-		<a class="lightbox-close" href="#project">
+		<a class="lightbox-close" href="small{{project.name}}">
 			<img id="imgg" src="{{project.image}}"> 
 			</img>
 		</a>
 </div>
-  {% endfor %}
+{% endfor %}
