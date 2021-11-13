@@ -431,7 +431,7 @@ a.navbar-item.is-active {
 
 	#imgg {
 		margin: auto;
-		position: absolute;
+		position: absolute!important;
 		top: 0%!important;
 		left:0%!important;
 		right: 0%!important;
@@ -449,7 +449,6 @@ a.navbar-item.is-active {
 	/* Styles the close link*/
 
 	a.lightbox-close {
-	  display: block;
 	  background: transparent;
 	  color: black;
 	  text-decoration: none;
