@@ -1,6 +1,6 @@
 <div class="columns is-centered is-multiline is-mobile">
   {% for project in site.data.projects %}
-    <div class="wrapper lightbox" id="project-card" style="padding: 1%!important;">
+    <div class="wrapper" id="project-card" style="padding: 1%!important;">
       <a href="#full{{project.name}}" target="_blank">
       <div class="card">
         <img src="{{project.image}}">
@@ -12,9 +12,11 @@
       </a>
 	</div>
 	
-	<div class="lightbox-target" id="full{{project.name}}">
-	   <img src="{{project.image}}"/>
-	   <a class="lightbox-close" href="#project"></a>
+	<div class="lightbox-target lightbox-close" id="full{{project.name}}">
+		<a class="lightbox-close" href="#project">
+			<img id="imgg" src="{{project.image}}"> 
+			</img>
+		</a>
 	</div>
 
   {% endfor %}
