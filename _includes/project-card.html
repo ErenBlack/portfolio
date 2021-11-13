@@ -1,15 +1,17 @@
 <div class="columns is-centered is-multiline is-mobile">
   {% for project in site.data.projects %}
     <div class="wrapper" id="project-card" style="padding: 1%!important;">
-      <a href="#full{{project.name}}" id="small{{project.name}}">
+      
       <div class="card">
-        <img src="{{project.image}}">
+	  <a href="#full{{project.name}}" id="small{{project.name}}">
+        <img src="{{project.image}}"/>
+		</a>
         <div class="info">
           <p class = "subtitle p2 has-text-center has-text-bottom has-text-light is-size-7">{{project.description}}</p>
           <p class = "title has-text-center has-text-bottom has-text-light is-size-5">{{project.name}}</p>
         </div>
       </div>
-      </a>
+      
 	</div>
 </div>
   {% endfor %}
