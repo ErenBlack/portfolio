@@ -341,7 +341,7 @@ a.navbar-item.is-active {
 #project-card {
 		.wrapper {
 			display: flex;
-			justify-content: space-evenly;
+			justify-content: space-around;
 
 		}
 
@@ -349,7 +349,7 @@ a.navbar-item.is-active {
 			width: 250px;
 			height: 250px;
 			border-radius: 15px;
-			padding: 0rem;
+			padding: 1.5rem;
 			background: white;
 			position: relative;
 			display: flex;
