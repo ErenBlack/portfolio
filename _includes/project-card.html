@@ -1,7 +1,11 @@
 <div class="columns is-centered is-multiline is-mobile">
   {% for project in site.data.projects %}
     <div class="wrapper" id="project-card" style="padding: 1%!important;">
+<<<<<<< HEAD
       
+=======
+      <a href="{{project.link}}" target="_blank">
+>>>>>>> parent of 773706d (mod)
       <div class="card">
 	  <a href="#full{{project.name}}" id="small{{project.name}}">
         <img src="{{project.image}}"/>
@@ -10,6 +14,7 @@
 <<<<<<< HEAD
           <p class = "subtitle p2 has-text-center has-text-bottom has-text-light is-size-7">{{project.description}}</p>
           <p class = "title has-text-center has-text-bottom has-text-light is-size-5">{{project.name}}</p>
+<<<<<<< HEAD
 =======
           <p class = "subtitle p2 has-text-center has-text-bottom has-text-light is-size-6">{{project.description}}</p>
           <p class = "title has-text-center has-text-bottom has-text-light is-size-4">{{project.name}}</p>
@@ -19,6 +24,14 @@
       </div>
 	</div>
 </div>
+=======
+
+        </div>
+      </div>
+      </a>
+	</div>
+
+>>>>>>> parent of 773706d (mod)
   {% endfor %}
 
 
