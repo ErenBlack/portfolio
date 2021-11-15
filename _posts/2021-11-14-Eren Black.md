@@ -2,7 +2,7 @@
 title: My Logo
 layout: post
 post-image: "/assets/portfolio-images/ErenBlack.gif"
-description: My main Logo. Inspired by an asymmetrical futuristic city.
+description: My main Logo. Inspired by... well, just read below.
 tags:
 - ErenBlack
 - logo
