@@ -1,5 +1,5 @@
 ---
-title: TREO
+title: Twitch/Twitter noficiation banners
 layout: post
 post-image: "/assets/portfolio-images/Twitch-combined.gif"
 description: Two notification banners that I was commissioned to do by the same agency.
