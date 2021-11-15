@@ -11,7 +11,7 @@
   image: /assets/portfolio-images/Nexpo.gif
   description: I was inspired by Nexpo's logo, so I had animated it, however, the logo design itself is not by me.
 - name: NewTubers Halloween Logo
-  link:
+  link:https://erenblack.com/blog/NewTubersHalloween
   image: /assets/portfolio-images/NewTubers.gif
   description: Halloween-themed logo made for r/NewTubers.
 - name: Quench Beverage Concept
