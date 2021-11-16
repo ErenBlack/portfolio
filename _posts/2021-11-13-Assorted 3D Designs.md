@@ -1,7 +1,7 @@
 ---
 title: Assorted 3D Designs
 layout: post
-post-image: "/assets/portfolio-images/3D_Towers.gif"
+post-image: "/assets/images/3D_Towers.gif"
 description: Various small 3D designs that don't warrant their own page.
 tags:
 - 3D
