@@ -10,6 +10,7 @@ tags:
 - designs
 - Cinema4D
 ---
+---
 
 ![3D Towers](/assets/images/3D_Towers.gif)
 Better look at the 3D towers asset used in [one of my logo designs](https://erenblack.com/blog/Eren-Black).
