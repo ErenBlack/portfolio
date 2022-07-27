@@ -22,7 +22,7 @@ heroimage: https://erenblack.com/assets/images/configyml_hero.png
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email:
+email: contact@erenblack.com
 facebook_username: 
 twitter_username: ErenBlackEdits
 instagram_username: 
@@ -34,7 +34,8 @@ behance_username:
 dribbble_username: 
 spotify_username: 
 discord_username: Eren Black#6621
-discord_server: https://discord.gg/RXz2sMs
+discord_server: 
+spotify_username: erenblack
 
 # Google Analytics
 google-analytics: 
