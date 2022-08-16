@@ -1,7 +1,7 @@
 ---
 title: Assorted 3D Designs
 layout: post
-post-image: "/assets/images/3D_Towers.gif"
+post-image: "3D_Bamboo_Reveal.gif"
 description: Various small 3D designs that don't warrant their own page.
 tags:
 - 3D
@@ -10,6 +10,12 @@ tags:
 - designs
 - Cinema4D
 ---
+---
+
+![3D Bamboo Reveal](/assets/images/3D_Bamboo_Reveal.gif)
+
+A small bamboo tree animation I created as I was troubleshooting vertex map animation in Cinema4D Octane.
+
 ---
 
 ![3D Towers](/assets/images/3D_Towers.gif)
