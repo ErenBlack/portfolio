@@ -2,7 +2,7 @@
   image: /assets/portfolio-images/ErenBlack.gif
   link: https://erenblack.com/blog/Eren-Black
   description: My main Logo. Inspired by... everything.
-  - name: Nexpo's Intro Reimagined
+- name: Nexpo's Intro Reimagined
   image: /assets/portfolio-images/NexpoVideo.gif
   link: https://youtu.be/H224mJMZFXA
   description: Animation I created inspired by Nexpo's intro.
