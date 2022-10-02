@@ -1,9 +1,13 @@
-- name: My Logo
+- name: (WARNING: OLD, UNER CONSTRUCTION) My Logo
   image: /assets/portfolio-images/ErenBlack.gif
   link: https://erenblack.com/blog/Eren-Black
   description: My main Logo. Inspired by... everything.
+  - name: Nexpo's Intro: Reimagined
+  image: /assets/portfolio-images/NexpoVideo.gif
+  link: https://youtu.be/H224mJMZFXA
+  description: My main Logo. Inspired by... everything.
 - name: Assorted 3D Designs
-  image: /assets/images/3D_Bamboo_Reveal.gif
+  image: /assets/portfolio-images/3D_Bamboo_Reveal.gif
   link: https://erenblack.com/blog/Assorted-3D-Designs
   description: Various small 3D designs that don't warrant their own page.
 - name: TREO
