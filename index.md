@@ -1,3 +1,10 @@
----
-layout: default
----
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Redirecting...</title>
+      <meta http-equiv = "refresh" content = "0; url = https://www.behance.net/ErenBlack" />
+   </head>
+   <body>
+   </body>
+</html>
